@@ -21,11 +21,6 @@
   </notepads>
   <order>
     <hop>
-      <from>CSV file input</from>
-      <to>Select values paises</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Add sequence</from>
       <to>CSV file output</to>
       <enabled>Y</enabled>
@@ -36,18 +31,8 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Select values preguntas</from>
-      <to>Replace in string preguntas</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Add sequence 2</from>
       <to>CSV preguntas</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>CSV file input</from>
-      <to>Filter rows</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -76,13 +61,33 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Replace in string preguntas</from>
+      <from>Unique rows 2</from>
+      <to>Add sequence 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>CSV file input</from>
+      <to>Filter rows</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>CSV file input</from>
+      <to>Select values paises</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort rows 2</from>
       <to>Unique rows 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Unique rows 2</from>
-      <to>Add sequence 2</to>
+      <from>Select values preguntas</from>
+      <to>Replace in string preguntas</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Replace in string preguntas</from>
+      <to>Sort rows 2</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -127,10 +132,10 @@
     <start_at>1</start_at>
     <use_counter>Y</use_counter>
     <use_database>N</use_database>
-    <valuename>Add ID</valuename>
+    <valuename>ID</valuename>
     <attributes/>
     <GUI>
-      <xloc>656</xloc>
+      <xloc>784</xloc>
       <yloc>192</yloc>
     </GUI>
   </transform>
@@ -188,7 +193,7 @@
     <name>CSV file input</name>
     <type>CSVInput</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <custom_distribution/>
     <copies>1</copies>
     <partitioning>
@@ -1072,7 +1077,7 @@
     </fields>
     <attributes/>
     <GUI>
-      <xloc>816</xloc>
+      <xloc>912</xloc>
       <yloc>192</yloc>
     </GUI>
   </transform>
@@ -1126,18 +1131,17 @@
     <fields>
       <field>
         <case_sensitive>N</case_sensitive>
-        <in_stream_name>Indicator Name</in_stream_name>
+        <in_stream_name>Pregunta</in_stream_name>
         <is_unicode>N</is_unicode>
-        <replace_by_string> </replace_by_string>
         <replace_string>\s*\([^)]*\)</replace_string>
-        <set_empty_string>N</set_empty_string>
+        <set_empty_string>Y</set_empty_string>
         <use_regex>Y</use_regex>
         <whole_word>N</whole_word>
       </field>
     </fields>
     <attributes/>
     <GUI>
-      <xloc>448</xloc>
+      <xloc>432</xloc>
       <yloc>192</yloc>
     </GUI>
   </transform>
@@ -1158,6 +1162,9 @@
       </field>
       <field>
         <name>2023</name>
+      </field>
+      <field>
+        <name>Indicator Name</name>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -1199,7 +1206,7 @@
     <name>Select values preguntas</name>
     <type>SelectValues</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <custom_distribution/>
     <copies>1</copies>
     <partitioning>
@@ -1209,12 +1216,13 @@
     <fields>
       <field>
         <name>Indicator Name</name>
+        <rename>Pregunta</rename>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
     <GUI>
-      <xloc>320</xloc>
+      <xloc>272</xloc>
       <yloc>192</yloc>
     </GUI>
   </transform>
@@ -1253,6 +1261,40 @@
     </GUI>
   </transform>
   <transform>
+    <name>Sort rows 2</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>${java.io.tmpdir}</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>Pregunta</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <attributes/>
+    <GUI>
+      <xloc>560</xloc>
+      <yloc>192</yloc>
+    </GUI>
+  </transform>
+  <transform>
     <name>Unique rows</name>
     <type>Unique</type>
     <description/>
@@ -1263,9 +1305,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <count_field/>
     <count_rows>N</count_rows>
-    <error_description/>
     <fields>
       <field>
         <case_insensitive>N</case_insensitive>
@@ -1294,19 +1334,17 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <count_field/>
     <count_rows>N</count_rows>
-    <error_description/>
     <fields>
       <field>
-        <case_insensitive>N</case_insensitive>
-        <name>Indicator Name</name>
+        <case_insensitive>Y</case_insensitive>
+        <name>Pregunta</name>
       </field>
     </fields>
     <reject_duplicate_row>N</reject_duplicate_row>
     <attributes/>
     <GUI>
-      <xloc>560</xloc>
+      <xloc>672</xloc>
       <yloc>192</yloc>
     </GUI>
   </transform>

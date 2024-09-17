@@ -1,90 +1,267 @@
-"﻿"Country Name"";2023
-Guam ;8
-Irela;8
-Antig;7
-Botsw;7
-Domin;7
-Grena;7
-Icela;7
-Lesot;7
-Mozam;7
-Namib;7
-Norwa;7
-Tanza;7
-Briti;7
-Zambi;7
-Aruba;6
-Afric;6
-Andor;6
-Argen;6
-Benin;6
-Bermu;6
-Barba;6
-Chile;6
-Camer;6
-Costa;6
-Curac;6
-East ;6
-Ecuad;6
-Ethio;6
-Finla;6
-Unite;6
-Gibra;6
-Guine;6
-Hong ;6
-IBRD ;6
-IDA b;6
-Jamai;6
-Cambo;6
-Korea;6
-Libya;6
-Least;6
-Luxem;6
-Middl;6
-Middl;6
-Malta;6
-Malaw;6
-Niger;6
-New Z;6
-Other;6
-Peru ;6
-Papua;6
-Puert;6
-Parag;6
-Post-;6
-Seneg;6
-Sierr;6
-South;6
-Sao T;6
-Slove;6
-Sint ;6
-Turks;6
-Timor;6
-Tunis;6
-Upper;6
-Vanua;6
-Bosni;5
-Colom;5
-Czech;5
-Alger;5
-Eritr;5
-Lao P;5
-Sri L;5
-Monte;5
-Roman;5
-South;5
-South;5
-Azerb;4
-Bulga;4
-Centr;4
-Croat;4
-Kazak;4
-Moldo;4
-Somal;4
-Europ;4
-Tajik;4
-Uzbek;4
-Faroe;
-Isle ;
-St. M;
-Kosov;
+"﻿"Country Name"";2023;Indicator Name
+Guam ;8;Primary education, duration (years)                                                                     
+Irela;8;Primary education, duration (years)                                                                     
+Antig;7;Primary education, duration (years)                                                                     
+Austr;7;Primary education, duration (years)                                                                     
+Bhuta;7;Primary education, duration (years)                                                                     
+Botsw;7;Primary education, duration (years)                                                                     
+Domin;7;Primary education, duration (years)                                                                     
+Denma;7;Primary education, duration (years)                                                                     
+Grena;7;Primary education, duration (years)                                                                     
+Icela;7;Primary education, duration (years)                                                                     
+St. K;7;Primary education, duration (years)                                                                     
+St. L;7;Primary education, duration (years)                                                                     
+Lesot;7;Primary education, duration (years)                                                                     
+Maldi;7;Primary education, duration (years)                                                                     
+Mozam;7;Primary education, duration (years)                                                                     
+Namib;7;Primary education, duration (years)                                                                     
+Norwa;7;Primary education, duration (years)                                                                     
+Eswat;7;Primary education, duration (years)                                                                     
+Trini;7;Primary education, duration (years)                                                                     
+Tanza;7;Primary education, duration (years)                                                                     
+Ugand;7;Primary education, duration (years)                                                                     
+St. V;7;Primary education, duration (years)                                                                     
+Briti;7;Primary education, duration (years)                                                                     
+South;7;Primary education, duration (years)                                                                     
+Zambi;7;Primary education, duration (years)                                                                     
+Zimba;7;Primary education, duration (years)                                                                     
+Aruba;6;Primary education, duration (years)                                                                     
+Afric;6;Primary education, duration (years)                                                                     
+Afric;6;Primary education, duration (years)                                                                     
+Angol;6;Primary education, duration (years)                                                                     
+Andor;6;Primary education, duration (years)                                                                     
+Arab ;6;Primary education, duration (years)                                                                     
+Argen;6;Primary education, duration (years)                                                                     
+Ameri;6;Primary education, duration (years)                                                                     
+Burun;6;Primary education, duration (years)                                                                     
+Belgi;6;Primary education, duration (years)                                                                     
+Benin;6;Primary education, duration (years)                                                                     
+Burki;6;Primary education, duration (years)                                                                     
+Bahra;6;Primary education, duration (years)                                                                     
+Baham;6;Primary education, duration (years)                                                                     
+Beliz;6;Primary education, duration (years)                                                                     
+Bermu;6;Primary education, duration (years)                                                                     
+Boliv;6;Primary education, duration (years)                                                                     
+Barba;6;Primary education, duration (years)                                                                     
+Brune;6;Primary education, duration (years)                                                                     
+Centr;6;Primary education, duration (years)                                                                     
+Canad;6;Primary education, duration (years)                                                                     
+Switz;6;Primary education, duration (years)                                                                     
+Chile;6;Primary education, duration (years)                                                                     
+China;6;Primary education, duration (years)                                                                     
+Cote ;6;Primary education, duration (years)                                                                     
+Camer;6;Primary education, duration (years)                                                                     
+Congo;6;Primary education, duration (years)                                                                     
+Congo;6;Primary education, duration (years)                                                                     
+Comor;6;Primary education, duration (years)                                                                     
+Cabo ;6;Primary education, duration (years)                                                                     
+Costa;6;Primary education, duration (years)                                                                     
+Cuba ;6;Primary education, duration (years)                                                                     
+Curac;6;Primary education, duration (years)                                                                     
+Cayma;6;Primary education, duration (years)                                                                     
+Cypru;6;Primary education, duration (years)                                                                     
+Domin;6;Primary education, duration (years)                                                                     
+East ;6;Primary education, duration (years)                                                                     
+Early;6;Primary education, duration (years)                                                                     
+East ;6;Primary education, duration (years)                                                                     
+Ecuad;6;Primary education, duration (years)                                                                     
+Egypt;6;Primary education, duration (years)                                                                     
+Euro ;6;Primary education, duration (years)                                                                     
+Spain;6;Primary education, duration (years)                                                                     
+Eston;6;Primary education, duration (years)                                                                     
+Ethio;6;Primary education, duration (years)                                                                     
+Europ;6;Primary education, duration (years)                                                                     
+Fragi;6;Primary education, duration (years)                                                                     
+Finla;6;Primary education, duration (years)                                                                     
+Fiji ;6;Primary education, duration (years)                                                                     
+Micro;6;Primary education, duration (years)                                                                     
+Unite;6;Primary education, duration (years)                                                                     
+Georg;6;Primary education, duration (years)                                                                     
+Ghana;6;Primary education, duration (years)                                                                     
+Gibra;6;Primary education, duration (years)                                                                     
+Guine;6;Primary education, duration (years)                                                                     
+Gambi;6;Primary education, duration (years)                                                                     
+Guine;6;Primary education, duration (years)                                                                     
+Equat;6;Primary education, duration (years)                                                                     
+Greec;6;Primary education, duration (years)                                                                     
+Guate;6;Primary education, duration (years)                                                                     
+Guyan;6;Primary education, duration (years)                                                                     
+High ;6;Primary education, duration (years)                                                                     
+Hong ;6;Primary education, duration (years)                                                                     
+Hondu;6;Primary education, duration (years)                                                                     
+Heavi;6;Primary education, duration (years)                                                                     
+Haiti;6;Primary education, duration (years)                                                                     
+IBRD ;6;Primary education, duration (years)                                                                     
+IDA &;6;Primary education, duration (years)                                                                     
+IDA t;6;Primary education, duration (years)                                                                     
+IDA b;6;Primary education, duration (years)                                                                     
+Indon;6;Primary education, duration (years)                                                                     
+IDA o;6;Primary education, duration (years)                                                                     
+Iran,;6;Primary education, duration (years)                                                                     
+Iraq ;6;Primary education, duration (years)                                                                     
+Israe;6;Primary education, duration (years)                                                                     
+Jamai;6;Primary education, duration (years)                                                                     
+Jorda;6;Primary education, duration (years)                                                                     
+Japan;6;Primary education, duration (years)                                                                     
+Kenya;6;Primary education, duration (years)                                                                     
+Cambo;6;Primary education, duration (years)                                                                     
+Kirib;6;Primary education, duration (years)                                                                     
+Korea;6;Primary education, duration (years)                                                                     
+Latin;6;Primary education, duration (years)                                                                     
+Leban;6;Primary education, duration (years)                                                                     
+Liber;6;Primary education, duration (years)                                                                     
+Libya;6;Primary education, duration (years)                                                                     
+Latin;6;Primary education, duration (years)                                                                     
+Least;6;Primary education, duration (years)                                                                     
+Low i;6;Primary education, duration (years)                                                                     
+Lower;6;Primary education, duration (years)                                                                     
+Low &;6;Primary education, duration (years)                                                                     
+Luxem;6;Primary education, duration (years)                                                                     
+Latvi;6;Primary education, duration (years)                                                                     
+Macao;6;Primary education, duration (years)                                                                     
+Moroc;6;Primary education, duration (years)                                                                     
+Middl;6;Primary education, duration (years)                                                                     
+Mexic;6;Primary education, duration (years)                                                                     
+Marsh;6;Primary education, duration (years)                                                                     
+Middl;6;Primary education, duration (years)                                                                     
+Mali ;6;Primary education, duration (years)                                                                     
+Malta;6;Primary education, duration (years)                                                                     
+Middl;6;Primary education, duration (years)                                                                     
+Mauri;6;Primary education, duration (years)                                                                     
+Mauri;6;Primary education, duration (years)                                                                     
+Malaw;6;Primary education, duration (years)                                                                     
+Malay;6;Primary education, duration (years)                                                                     
+North;6;Primary education, duration (years)                                                                     
+Niger;6;Primary education, duration (years)                                                                     
+Niger;6;Primary education, duration (years)                                                                     
+Nicar;6;Primary education, duration (years)                                                                     
+Nethe;6;Primary education, duration (years)                                                                     
+Nauru;6;Primary education, duration (years)                                                                     
+New Z;6;Primary education, duration (years)                                                                     
+OECD ;6;Primary education, duration (years)                                                                     
+Other;6;Primary education, duration (years)                                                                     
+Panam;6;Primary education, duration (years)                                                                     
+Peru ;6;Primary education, duration (years)                                                                     
+Phili;6;Primary education, duration (years)                                                                     
+Palau;6;Primary education, duration (years)                                                                     
+Papua;6;Primary education, duration (years)                                                                     
+Pre-d;6;Primary education, duration (years)                                                                     
+Puert;6;Primary education, duration (years)                                                                     
+Portu;6;Primary education, duration (years)                                                                     
+Parag;6;Primary education, duration (years)                                                                     
+Post-;6;Primary education, duration (years)                                                                     
+Qatar;6;Primary education, duration (years)                                                                     
+Rwand;6;Primary education, duration (years)                                                                     
+Saudi;6;Primary education, duration (years)                                                                     
+Sudan;6;Primary education, duration (years)                                                                     
+Seneg;6;Primary education, duration (years)                                                                     
+Singa;6;Primary education, duration (years)                                                                     
+Solom;6;Primary education, duration (years)                                                                     
+Sierr;6;Primary education, duration (years)                                                                     
+El Sa;6;Primary education, duration (years)                                                                     
+Sub-S;6;Primary education, duration (years)                                                                     
+South;6;Primary education, duration (years)                                                                     
+Sub-S;6;Primary education, duration (years)                                                                     
+Small;6;Primary education, duration (years)                                                                     
+Sao T;6;Primary education, duration (years)                                                                     
+Surin;6;Primary education, duration (years)                                                                     
+Slove;6;Primary education, duration (years)                                                                     
+Swede;6;Primary education, duration (years)                                                                     
+Sint ;6;Primary education, duration (years)                                                                     
+Seych;6;Primary education, duration (years)                                                                     
+Syria;6;Primary education, duration (years)                                                                     
+Turks;6;Primary education, duration (years)                                                                     
+Chad ;6;Primary education, duration (years)                                                                     
+East ;6;Primary education, duration (years)                                                                     
+Togo ;6;Primary education, duration (years)                                                                     
+Thail;6;Primary education, duration (years)                                                                     
+Latin;6;Primary education, duration (years)                                                                     
+Timor;6;Primary education, duration (years)                                                                     
+Middl;6;Primary education, duration (years)                                                                     
+Tonga;6;Primary education, duration (years)                                                                     
+Sub-S;6;Primary education, duration (years)                                                                     
+Tunis;6;Primary education, duration (years)                                                                     
+Tuval;6;Primary education, duration (years)                                                                     
+Upper;6;Primary education, duration (years)                                                                     
+Urugu;6;Primary education, duration (years)                                                                     
+Unite;6;Primary education, duration (years)                                                                     
+Venez;6;Primary education, duration (years)                                                                     
+Virgi;6;Primary education, duration (years)                                                                     
+Vanua;6;Primary education, duration (years)                                                                     
+World;6;Primary education, duration (years)                                                                     
+Samoa;6;Primary education, duration (years)                                                                     
+Yemen;6;Primary education, duration (years)                                                                     
+Alban;5;Primary education, duration (years)                                                                     
+Bangl;5;Primary education, duration (years)                                                                     
+Bosni;5;Primary education, duration (years)                                                                     
+Brazi;5;Primary education, duration (years)                                                                     
+Colom;5;Primary education, duration (years)                                                                     
+Czech;5;Primary education, duration (years)                                                                     
+Djibo;5;Primary education, duration (years)                                                                     
+Alger;5;Primary education, duration (years)                                                                     
+Europ;5;Primary education, duration (years)                                                                     
+Eritr;5;Primary education, duration (years)                                                                     
+Franc;5;Primary education, duration (years)                                                                     
+Gabon;5;Primary education, duration (years)                                                                     
+India;5;Primary education, duration (years)                                                                     
+Italy;5;Primary education, duration (years)                                                                     
+Kuwai;5;Primary education, duration (years)                                                                     
+Lao P;5;Primary education, duration (years)                                                                     
+Liech;5;Primary education, duration (years)                                                                     
+Sri L;5;Primary education, duration (years)                                                                     
+Late-;5;Primary education, duration (years)                                                                     
+Monac;5;Primary education, duration (years)                                                                     
+Madag;5;Primary education, duration (years)                                                                     
+North;5;Primary education, duration (years)                                                                     
+Myanm;5;Primary education, duration (years)                                                                     
+Monte;5;Primary education, duration (years)                                                                     
+Mongo;5;Primary education, duration (years)                                                                     
+New C;5;Primary education, duration (years)                                                                     
+Nepal;5;Primary education, duration (years)                                                                     
+Pakis;5;Primary education, duration (years)                                                                     
+Korea;5;Primary education, duration (years)                                                                     
+Frenc;5;Primary education, duration (years)                                                                     
+Roman;5;Primary education, duration (years)                                                                     
+South;5;Primary education, duration (years)                                                                     
+San M;5;Primary education, duration (years)                                                                     
+South;5;Primary education, duration (years)                                                                     
+Viet ;5;Primary education, duration (years)                                                                     
+Unite;4;Primary education, duration (years)                                                                     
+Armen;4;Primary education, duration (years)                                                                     
+Austr;4;Primary education, duration (years)                                                                     
+Azerb;4;Primary education, duration (years)                                                                     
+Bulga;4;Primary education, duration (years)                                                                     
+Belar;4;Primary education, duration (years)                                                                     
+Centr;4;Primary education, duration (years)                                                                     
+Germa;4;Primary education, duration (years)                                                                     
+Europ;4;Primary education, duration (years)                                                                     
+Croat;4;Primary education, duration (years)                                                                     
+Hunga;4;Primary education, duration (years)                                                                     
+Kazak;4;Primary education, duration (years)                                                                     
+Kyrgy;4;Primary education, duration (years)                                                                     
+Lithu;4;Primary education, duration (years)                                                                     
+Moldo;4;Primary education, duration (years)                                                                     
+Oman ;4;Primary education, duration (years)                                                                     
+Polan;4;Primary education, duration (years)                                                                     
+West ;4;Primary education, duration (years)                                                                     
+Russi;4;Primary education, duration (years)                                                                     
+Somal;4;Primary education, duration (years)                                                                     
+Serbi;4;Primary education, duration (years)                                                                     
+Slova;4;Primary education, duration (years)                                                                     
+Europ;4;Primary education, duration (years)                                                                     
+Tajik;4;Primary education, duration (years)                                                                     
+Turkm;4;Primary education, duration (years)                                                                     
+Turki;4;Primary education, duration (years)                                                                     
+Ukrai;4;Primary education, duration (years)                                                                     
+Uzbek;4;Primary education, duration (years)                                                                     
+Afgha;;Primary education, duration (years)                                                                     
+Chann;;Primary education, duration (years)                                                                     
+Carib;;Primary education, duration (years)                                                                     
+Faroe;;Primary education, duration (years)                                                                     
+Green;;Primary education, duration (years)                                                                     
+Isle ;;Primary education, duration (years)                                                                     
+Not c;;Primary education, duration (years)                                                                     
+St. M;;Primary education, duration (years)                                                                     
+North;;Primary education, duration (years)                                                                     
+Pacif;;Primary education, duration (years)                                                                     
+Kosov;;Primary education, duration (years)                                                                     

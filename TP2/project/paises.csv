@@ -1,267 +1,267 @@
 Pais;Codigo_pais;Add ID
-Aruba;ABW;10
-Afric;AFE;13
-Afgha;AFG;16
-Afric;AFW;33
-Angol;AGO;36
-Alban;ALB;112
-Andor;AND;144
-Arab ;ARB;201
-Unite;ARE;269
-Argen;ARG;361
-Armen;ARM;388
-Ameri;ASM;452
-Antig;ATG;504
-Austr;AUS;544
-Austr;AUT;568
-Azerb;AZE;630
-Burun;BDI;698
-Belgi;BEL;779
-Benin;BEN;840
-Burki;BFA;873
-Bangl;BGD;976
-Bulga;BGR;978
-Bahra;BHR;1020
-Baham;BHS;1082
-Bosni;BIH;1099
-Belar;BLR;1167
-Beliz;BLZ;1233
-Bermu;BMU;1301
-Boliv;BOL;1385
-Brazi;BRA;1403
-Barba;BRB;1476
-Brune;BRN;1547
-Bhuta;BTN;1581
-Botsw;BWA;1651
-Centr;CAF;1680
-Canad;CAN;1741
-Centr;CEB;1767
-Switz;CHE;1851
-Chann;CHI;1897
-Chile;CHL;1955
-China;CHN;2035
-Cote ;CIV;2040
-Camer;CMR;2133
-Congo;COD;2202
-Congo;COG;2261
-Colom;COL;2287
-Comor;COM;2330
-Cabo ;CPV;2382
-Costa;CRI;2428
-Carib;CSS;2528
-Cuba ;CUB;2560
-Curac;CUW;2630
-Cayma;CYM;2656
-Cypru;CYP;2753
-Czech;CZE;2784
-Germa;DEU;2844
-Djibo;DJI;2878
-Domin;DMA;2925
-Denma;DNK;2985
-Domin;DOM;3047
-Alger;DZA;3072
-East ;EAP;3166
-Early;EAR;3226
-East ;EAS;3289
-Europ;ECA;3354
-Europ;ECS;3367
-Ecuad;ECU;3384
-Egypt;EGY;3508
-Euro ;EMU;3545
-Eritr;ERI;3603
-Spain;ESP;3668
-Eston;EST;3730
-Ethio;ETH;3772
-Europ;EUU;3812
-Fragi;FCS;3859
-Finla;FIN;3913
-Fiji ;FJI;3975
-Franc;FRA;4023
-Faroe;FRO;4105
-Micro;FSM;4149
-Gabon;GAB;4215
-Unite;GBR;4245
-Georg;GEO;4327
-Ghana;GHA;4376
-Gibra;GIB;4443
-Guine;GIN;4500
-Gambi;GMB;4552
-Guine;GNB;4598
-Equat;GNQ;4644
-Greec;GRC;4712
-Grena;GRD;4759
-Green;GRL;4832
-Guate;GTM;4872
-Guam ;GUM;4904
-Guyan;GUY;4951
-High ;HIC;4988
-Hong ;HKG;5057
-Hondu;HND;5144
-Heavi;HPC;5193
-Croat;HRV;5246
-Haiti;HTI;5302
-Hunga;HUN;5337
-IBRD ;IBD;5401
-IDA &;IBT;5440
-IDA t;IDA;5488
-IDA b;IDB;5638
-Indon;IDN;5639
-IDA o;IDX;5703
-Isle ;IMN;5735
-India;IND;5801
-Not c;INX;5820
-Irela;IRL;5872
-Iran,;IRN;5941
-Iraq ;IRQ;6001
-Icela;ISL;6104
-Israe;ISR;6159
-Italy;ITA;6190
-Jamai;JAM;6226
-Jorda;JOR;6303
-Japan;JPN;6333
-Kazak;KAZ;6371
-Kenya;KEN;6465
-Kyrgy;KGZ;6529
-Cambo;KHM;6577
-Kirib;KIR;6588
-St. K;KNA;6647
-Korea;KOR;6705
-Kuwai;KWT;6747
-Latin;LAC;6789
-Lao P;LAO;6872
-Leban;LBN;6907
-Liber;LBR;7006
-Libya;LBY;7049
-St. L;LCA;7100
-Latin;LCN;7111
-Least;LDC;7143
-Low i;LIC;7256
-Liech;LIE;7286
-Sri L;LKA;7370
-Lower;LMC;7414
-Low &;LMY;7505
-Lesot;LSO;7543
-Late-;LTE;7607
-Lithu;LTU;7681
-Luxem;LUX;7746
-Latvi;LVA;7786
-Macao;MAC;7828
-St. M;MAF;7830
-Moroc;MAR;7861
-Monac;MCO;7959
-Moldo;MDA;8023
-Madag;MDG;8025
-Maldi;MDV;8119
-Middl;MEA;8192
-Mexic;MEX;8226
-Marsh;MHL;8324
-Middl;MIC;8326
-North;MKD;8376
-Mali ;MLI;8451
-Malta;MLT;8533
-Myanm;MMR;8563
-Middl;MNA;8642
-Monte;MNE;8704
-Mongo;MNG;8754
-North;MNP;8762
-Mozam;MOZ;8825
-Mauri;MRT;8889
-Mauri;MUS;8953
-Malaw;MWI;8993
-Malay;MYS;9032
-North;NAC;9102
-Namib;NAM;9163
-New C;NCL;9233
-Niger;NER;9277
-Niger;NGA;9356
-Nicar;NIC;9390
-Nethe;NLD;9459
-Norwa;NOR;9500
-Nepal;NPL;9534
-Nauru;NRU;9592
-New Z;NZL;9673
-OECD ;OED;9731
-Oman ;OMN;9771
-Other;OSS;9827
-Pakis;PAK;9846
-Panam;PAN;9872
-Peru ;PER;9992
-Phili;PHL;10048
-Palau;PLW;10106
-Papua;PNG;10149
-Polan;POL;10226
-Pre-d;PRE;10284
-Puert;PRI;10343
-Korea;PRK;10346
-Portu;PRT;10420
-Parag;PRY;10460
-West ;PSE;10564
-Pacif;PSS;10595
-Post-;PST;10651
-Frenc;PYF;10708
-Qatar;QAT;10745
-Roman;ROU;10844
-Russi;RUS;10882
-Rwand;RWA;10940
-South;SAS;10988
-Saudi;SAU;11053
-Sudan;SDN;11084
-Seneg;SEN;11145
-Singa;SGP;11198
-Solom;SLB;11257
-Sierr;SLE;11313
-El Sa;SLV;11384
-San M;SMR;11421
-Somal;SOM;11472
-Serbi;SRB;11476
-Sub-S;SSA;11582
-South;SSD;11635
-Sub-S;SSF;11637
-Small;SST;11726
-Sao T;STP;11797
-Surin;SUR;11824
-Slova;SVK;11891
-Slove;SVN;11934
-Swede;SWE;12042
-Eswat;SWZ;12066
-Sint ;SXM;12129
-Seych;SYC;12181
-Syria;SYR;12212
-Turks;TCA;12248
-Chad ;TCD;12356
-East ;TEA;12392
-Europ;TEC;12435
-Togo ;TGO;12496
-Thail;THA;12527
-Tajik;TJK;12597
-Turkm;TKM;12679
-Latin;TLA;12730
-Timor;TLS;12761
-Middl;TMN;12814
-Tonga;TON;12849
-South;TSA;12955
-Sub-S;TSS;12995
-Trini;TTO;13049
-Tunis;TUN;13078
-Turki;TUR;13139
-Tuval;TUV;13210
-Tanza;TZA;13246
-Ugand;UGA;13335
-Ukrai;UKR;13408
-Upper;UMC;13443
-Urugu;URY;13503
-Unite;USA;13536
-Uzbek;UZB;13639
-St. V;VCT;13669
-Venez;VEN;13697
-Briti;VGB;13788
-Virgi;VIR;13849
-Viet ;VNM;13861
-Vanua;VUT;13888
-World;WLD;13978
-Samoa;WSM;14031
-Kosov;XKX;14060
-Yemen;YEM;14090
-South;ZAF;14126
-Zambi;ZMB;14243
-Zimba;ZWE;14284
+Aruba;ABW;1
+Afric;AFE;2
+Afgha;AFG;3
+Afric;AFW;4
+Angol;AGO;5
+Alban;ALB;6
+Andor;AND;7
+Arab ;ARB;8
+Unite;ARE;9
+Argen;ARG;10
+Armen;ARM;11
+Ameri;ASM;12
+Antig;ATG;13
+Austr;AUS;14
+Austr;AUT;15
+Azerb;AZE;16
+Burun;BDI;17
+Belgi;BEL;18
+Benin;BEN;19
+Burki;BFA;20
+Bangl;BGD;21
+Bulga;BGR;22
+Bahra;BHR;23
+Baham;BHS;24
+Bosni;BIH;25
+Belar;BLR;26
+Beliz;BLZ;27
+Bermu;BMU;28
+Boliv;BOL;29
+Brazi;BRA;30
+Barba;BRB;31
+Brune;BRN;32
+Bhuta;BTN;33
+Botsw;BWA;34
+Centr;CAF;35
+Canad;CAN;36
+Centr;CEB;37
+Switz;CHE;38
+Chann;CHI;39
+Chile;CHL;40
+China;CHN;41
+Cote ;CIV;42
+Camer;CMR;43
+Congo;COD;44
+Congo;COG;45
+Colom;COL;46
+Comor;COM;47
+Cabo ;CPV;48
+Costa;CRI;49
+Carib;CSS;50
+Cuba ;CUB;51
+Curac;CUW;52
+Cayma;CYM;53
+Cypru;CYP;54
+Czech;CZE;55
+Germa;DEU;56
+Djibo;DJI;57
+Domin;DMA;58
+Denma;DNK;59
+Domin;DOM;60
+Alger;DZA;61
+East ;EAP;62
+Early;EAR;63
+East ;EAS;64
+Europ;ECA;65
+Europ;ECS;66
+Ecuad;ECU;67
+Egypt;EGY;68
+Euro ;EMU;69
+Eritr;ERI;70
+Spain;ESP;71
+Eston;EST;72
+Ethio;ETH;73
+Europ;EUU;74
+Fragi;FCS;75
+Finla;FIN;76
+Fiji ;FJI;77
+Franc;FRA;78
+Faroe;FRO;79
+Micro;FSM;80
+Gabon;GAB;81
+Unite;GBR;82
+Georg;GEO;83
+Ghana;GHA;84
+Gibra;GIB;85
+Guine;GIN;86
+Gambi;GMB;87
+Guine;GNB;88
+Equat;GNQ;89
+Greec;GRC;90
+Grena;GRD;91
+Green;GRL;92
+Guate;GTM;93
+Guam ;GUM;94
+Guyan;GUY;95
+High ;HIC;96
+Hong ;HKG;97
+Hondu;HND;98
+Heavi;HPC;99
+Croat;HRV;100
+Haiti;HTI;101
+Hunga;HUN;102
+IBRD ;IBD;103
+IDA &;IBT;104
+IDA t;IDA;105
+IDA b;IDB;106
+Indon;IDN;107
+IDA o;IDX;108
+Isle ;IMN;109
+India;IND;110
+Not c;INX;111
+Irela;IRL;112
+Iran,;IRN;113
+Iraq ;IRQ;114
+Icela;ISL;115
+Israe;ISR;116
+Italy;ITA;117
+Jamai;JAM;118
+Jorda;JOR;119
+Japan;JPN;120
+Kazak;KAZ;121
+Kenya;KEN;122
+Kyrgy;KGZ;123
+Cambo;KHM;124
+Kirib;KIR;125
+St. K;KNA;126
+Korea;KOR;127
+Kuwai;KWT;128
+Latin;LAC;129
+Lao P;LAO;130
+Leban;LBN;131
+Liber;LBR;132
+Libya;LBY;133
+St. L;LCA;134
+Latin;LCN;135
+Least;LDC;136
+Low i;LIC;137
+Liech;LIE;138
+Sri L;LKA;139
+Lower;LMC;140
+Low &;LMY;141
+Lesot;LSO;142
+Late-;LTE;143
+Lithu;LTU;144
+Luxem;LUX;145
+Latvi;LVA;146
+Macao;MAC;147
+St. M;MAF;148
+Moroc;MAR;149
+Monac;MCO;150
+Moldo;MDA;151
+Madag;MDG;152
+Maldi;MDV;153
+Middl;MEA;154
+Mexic;MEX;155
+Marsh;MHL;156
+Middl;MIC;157
+North;MKD;158
+Mali ;MLI;159
+Malta;MLT;160
+Myanm;MMR;161
+Middl;MNA;162
+Monte;MNE;163
+Mongo;MNG;164
+North;MNP;165
+Mozam;MOZ;166
+Mauri;MRT;167
+Mauri;MUS;168
+Malaw;MWI;169
+Malay;MYS;170
+North;NAC;171
+Namib;NAM;172
+New C;NCL;173
+Niger;NER;174
+Niger;NGA;175
+Nicar;NIC;176
+Nethe;NLD;177
+Norwa;NOR;178
+Nepal;NPL;179
+Nauru;NRU;180
+New Z;NZL;181
+OECD ;OED;182
+Oman ;OMN;183
+Other;OSS;184
+Pakis;PAK;185
+Panam;PAN;186
+Peru ;PER;187
+Phili;PHL;188
+Palau;PLW;189
+Papua;PNG;190
+Polan;POL;191
+Pre-d;PRE;192
+Puert;PRI;193
+Korea;PRK;194
+Portu;PRT;195
+Parag;PRY;196
+West ;PSE;197
+Pacif;PSS;198
+Post-;PST;199
+Frenc;PYF;200
+Qatar;QAT;201
+Roman;ROU;202
+Russi;RUS;203
+Rwand;RWA;204
+South;SAS;205
+Saudi;SAU;206
+Sudan;SDN;207
+Seneg;SEN;208
+Singa;SGP;209
+Solom;SLB;210
+Sierr;SLE;211
+El Sa;SLV;212
+San M;SMR;213
+Somal;SOM;214
+Serbi;SRB;215
+Sub-S;SSA;216
+South;SSD;217
+Sub-S;SSF;218
+Small;SST;219
+Sao T;STP;220
+Surin;SUR;221
+Slova;SVK;222
+Slove;SVN;223
+Swede;SWE;224
+Eswat;SWZ;225
+Sint ;SXM;226
+Seych;SYC;227
+Syria;SYR;228
+Turks;TCA;229
+Chad ;TCD;230
+East ;TEA;231
+Europ;TEC;232
+Togo ;TGO;233
+Thail;THA;234
+Tajik;TJK;235
+Turkm;TKM;236
+Latin;TLA;237
+Timor;TLS;238
+Middl;TMN;239
+Tonga;TON;240
+South;TSA;241
+Sub-S;TSS;242
+Trini;TTO;243
+Tunis;TUN;244
+Turki;TUR;245
+Tuval;TUV;246
+Tanza;TZA;247
+Ugand;UGA;248
+Ukrai;UKR;249
+Upper;UMC;250
+Urugu;URY;251
+Unite;USA;252
+Uzbek;UZB;253
+St. V;VCT;254
+Venez;VEN;255
+Briti;VGB;256
+Virgi;VIR;257
+Viet ;VNM;258
+Vanua;VUT;259
+World;WLD;260
+Samoa;WSM;261
+Kosov;XKX;262
+Yemen;YEM;263
+South;ZAF;264
+Zambi;ZMB;265
+Zimba;ZWE;266
