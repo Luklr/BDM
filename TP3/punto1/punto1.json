@@ -1,0 +1,318 @@
+{
+    "uuid": "584c98c0-aab7-312c-717f-e5f4293f85fd",
+    "last_modified": 1728244409214,
+    "version": "4.0.0.0",
+    "name": "punto1",
+    "is_draft": false,
+    "model_name": "punto1",
+    "description": "",
+    "null_string": null,
+    "dimensions": [
+      {
+        "name": "ID",
+        "table": "ESTUDIANTE",
+        "column": "ID",
+        "derived": null
+      },
+      {
+        "name": "ID_CARRERA",
+        "table": "ESTUDIANTE",
+        "column": "ID_CARRERA",
+        "derived": null
+      },
+      {
+        "name": "ID_SEDE",
+        "table": "ESTUDIANTE",
+        "column": "ID_SEDE",
+        "derived": null
+      },
+      {
+        "name": "ID_SEXO",
+        "table": "ESTUDIANTE",
+        "column": "ID_SEXO",
+        "derived": null
+      },
+      {
+        "name": "ID_PLAN",
+        "table": "ESTUDIANTE",
+        "column": "ID_PLAN",
+        "derived": null
+      },
+      {
+        "name": "ID_ANIO_INGRESO",
+        "table": "ESTUDIANTE",
+        "column": "ID_ANIO_INGRESO",
+        "derived": null
+      },
+      {
+        "name": "ID_CONDICION",
+        "table": "ESTUDIANTE",
+        "column": "ID_CONDICION",
+        "derived": null
+      },
+      {
+        "name": "ID",
+        "table": "PLAN",
+        "column": "ID",
+        "derived": null
+      },
+      {
+        "name": "CODIGO_PLAN",
+        "table": "PLAN",
+        "column": "CODIGO_PLAN",
+        "derived": null
+      },
+      {
+        "name": "ID",
+        "table": "CARRERA",
+        "column": "ID",
+        "derived": null
+      },
+      {
+        "name": "DENOMINACION",
+        "table": "CARRERA",
+        "column": "DENOMINACION",
+        "derived": null
+      },
+      {
+        "name": "ID",
+        "table": "CONDICION",
+        "column": "ID",
+        "derived": null
+      },
+      {
+        "name": "DESCRIPCION",
+        "table": "CONDICION",
+        "column": "DESCRIPCION",
+        "derived": null
+      },
+      {
+        "name": "ID",
+        "table": "SEXO",
+        "column": "ID",
+        "derived": null
+      },
+      {
+        "name": "DESCRIPCION",
+        "table": "SEXO",
+        "column": "DESCRIPCION",
+        "derived": null
+      },
+      {
+        "name": "ID",
+        "table": "SEDE",
+        "column": "ID",
+        "derived": null
+      },
+      {
+        "name": "DESCRIPCION",
+        "table": "SEDE",
+        "column": "DESCRIPCION",
+        "derived": null
+      },
+      {
+        "name": "ID",
+        "table": "ANIO_INGRESO",
+        "column": "ID",
+        "derived": null
+      },
+      {
+        "name": "ANIO",
+        "table": "ANIO_INGRESO",
+        "column": "ANIO",
+        "derived": null
+      }
+    ],
+    "measures": [
+      {
+        "name": "_COUNT_",
+        "function": {
+          "expression": "COUNT",
+          "parameter": {
+            "type": "constant",
+            "value": "1"
+          },
+          "returntype": "bigint"
+        }
+      }
+    ],
+    "dictionaries": [],
+    "rowkey": {
+      "rowkey_columns": [
+        {
+          "column": "ESTUDIANTE.ID",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "ESTUDIANTE.ID_CARRERA",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "ESTUDIANTE.ID_SEDE",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "ESTUDIANTE.ID_SEXO",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "ESTUDIANTE.ID_PLAN",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "ESTUDIANTE.ID_ANIO_INGRESO",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "ESTUDIANTE.ID_CONDICION",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "PLAN.ID",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "PLAN.CODIGO_PLAN",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "CARRERA.ID",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "CARRERA.DENOMINACION",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "CONDICION.ID",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "CONDICION.DESCRIPCION",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "SEXO.ID",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "SEXO.DESCRIPCION",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "SEDE.ID",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "SEDE.DESCRIPCION",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "ANIO_INGRESO.ID",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "ANIO_INGRESO.ANIO",
+          "encoding": "dict",
+          "isShardBy": false
+        }
+      ]
+    },
+    "hbase_mapping": {
+      "column_family": [
+        {
+          "name": "F1",
+          "columns": [
+            {
+              "qualifier": "M",
+              "measure_refs": [
+                "_COUNT_"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "aggregation_groups": [
+      {
+        "includes": [
+          "ESTUDIANTE.ID",
+          "ESTUDIANTE.ID_CARRERA",
+          "ESTUDIANTE.ID_SEDE",
+          "ESTUDIANTE.ID_SEXO",
+          "ESTUDIANTE.ID_PLAN",
+          "ESTUDIANTE.ID_ANIO_INGRESO",
+          "ESTUDIANTE.ID_CONDICION",
+          "PLAN.ID",
+          "PLAN.CODIGO_PLAN",
+          "CARRERA.ID",
+          "CARRERA.DENOMINACION",
+          "CONDICION.ID",
+          "CONDICION.DESCRIPCION",
+          "SEXO.ID",
+          "SEXO.DESCRIPCION",
+          "SEDE.ID",
+          "SEDE.DESCRIPCION",
+          "ANIO_INGRESO.ID",
+          "ANIO_INGRESO.ANIO"
+        ],
+        "select_rule": {
+          "hierarchy_dims": [],
+          "mandatory_dims": [],
+          "joint_dims": [
+            [
+              "CONDICION.ID",
+              "CONDICION.DESCRIPCION",
+              "SEXO.ID",
+              "SEXO.DESCRIPCION",
+              "SEDE.ID",
+              "SEDE.DESCRIPCION",
+              "ANIO_INGRESO.ID",
+              "ANIO_INGRESO.ANIO"
+            ]
+          ]
+        }
+      }
+    ],
+    "signature": "Jc0IpyFpjaPANz2K08XQhw==",
+    "notify_list": [],
+    "status_need_notify": [
+      "ERROR",
+      "DISCARDED",
+      "SUCCEED"
+    ],
+    "partition_date_start": 0,
+    "partition_date_end": 3153600000000,
+    "auto_merge_time_ranges": [
+      604800000,
+      2419200000
+    ],
+    "volatile_range": 0,
+    "retention_range": 0,
+    "engine_type": 6,
+    "storage_type": 2,
+    "override_kylin_properties": {},
+    "cuboid_black_list": [],
+    "parent_forward": 3,
+    "mandatory_dimension_set_list": [],
+    "snapshot_table_desc_list": []
+  }
+  

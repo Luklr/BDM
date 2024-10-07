@@ -1,0 +1,305 @@
+{
+    "uuid": "01327a92-9c17-1463-86c0-fd6abb06df69",
+    "last_modified": 1728248329302,
+    "version": "4.0.0.0",
+    "name": "punto2",
+    "is_draft": false,
+    "model_name": "punto2",
+    "description": "",
+    "null_string": null,
+    "dimensions": [
+      {
+        "name": "ID_CLIENTE",
+        "table": "VENTAS",
+        "column": "ID_CLIENTE",
+        "derived": null
+      },
+      {
+        "name": "ID_PRODUCTO",
+        "table": "VENTAS",
+        "column": "ID_PRODUCTO",
+        "derived": null
+      },
+      {
+        "name": "ID_FECHA",
+        "table": "VENTAS",
+        "column": "ID_FECHA",
+        "derived": null
+      },
+      {
+        "name": "ID_PRODUCTO",
+        "table": "PRODUCTOS",
+        "column": "ID_PRODUCTO",
+        "derived": null
+      },
+      {
+        "name": "CODIGO_PRODUCTO",
+        "table": "PRODUCTOS",
+        "column": "CODIGO_PRODUCTO",
+        "derived": null
+      },
+      {
+        "name": "DESCRIPCION",
+        "table": "PRODUCTOS",
+        "column": "DESCRIPCION",
+        "derived": null
+      },
+      {
+        "name": "CATEGORIA",
+        "table": "PRODUCTOS",
+        "column": "CATEGORIA",
+        "derived": null
+      },
+      {
+        "name": "MARCA",
+        "table": "PRODUCTOS",
+        "column": "MARCA",
+        "derived": null
+      },
+      {
+        "name": "PRECIO_UNITARIO",
+        "table": "PRODUCTOS",
+        "column": "PRECIO_UNITARIO",
+        "derived": null
+      },
+      {
+        "name": "ID_CLIENTE",
+        "table": "CLIENTES",
+        "column": "ID_CLIENTE",
+        "derived": null
+      },
+      {
+        "name": "CODIGO_CLIENTE",
+        "table": "CLIENTES",
+        "column": "CODIGO_CLIENTE",
+        "derived": null
+      },
+      {
+        "name": "RAZON_SOCIAL",
+        "table": "CLIENTES",
+        "column": "RAZON_SOCIAL",
+        "derived": null
+      },
+      {
+        "name": "SALDO_CUENTA",
+        "table": "CLIENTES",
+        "column": "SALDO_CUENTA",
+        "derived": null
+      },
+      {
+        "name": "CONDICION",
+        "table": "CLIENTES",
+        "column": "CONDICION",
+        "derived": null
+      },
+      {
+        "name": "ID_FECHA",
+        "table": "FECHAS",
+        "column": "ID_FECHA",
+        "derived": null
+      },
+      {
+        "name": "DIA",
+        "table": "FECHAS",
+        "column": "DIA",
+        "derived": null
+      },
+      {
+        "name": "MES",
+        "table": "FECHAS",
+        "column": "MES",
+        "derived": null
+      },
+      {
+        "name": "ANIO",
+        "table": "FECHAS",
+        "column": "ANIO",
+        "derived": null
+      }
+    ],
+    "measures": [
+      {
+        "name": "_COUNT_",
+        "function": {
+          "expression": "COUNT",
+          "parameter": {
+            "type": "constant",
+            "value": "1"
+          },
+          "returntype": "bigint"
+        }
+      }
+    ],
+    "dictionaries": [],
+    "rowkey": {
+      "rowkey_columns": [
+        {
+          "column": "VENTAS.ID_CLIENTE",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "VENTAS.ID_PRODUCTO",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "VENTAS.ID_FECHA",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "PRODUCTOS.ID_PRODUCTO",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "PRODUCTOS.CODIGO_PRODUCTO",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "PRODUCTOS.DESCRIPCION",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "PRODUCTOS.CATEGORIA",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "PRODUCTOS.MARCA",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "PRODUCTOS.PRECIO_UNITARIO",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "CLIENTES.ID_CLIENTE",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "CLIENTES.CODIGO_CLIENTE",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "CLIENTES.RAZON_SOCIAL",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "CLIENTES.SALDO_CUENTA",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "CLIENTES.CONDICION",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "FECHAS.ID_FECHA",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "FECHAS.DIA",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "FECHAS.MES",
+          "encoding": "dict",
+          "isShardBy": false
+        },
+        {
+          "column": "FECHAS.ANIO",
+          "encoding": "dict",
+          "isShardBy": false
+        }
+      ]
+    },
+    "hbase_mapping": {
+      "column_family": [
+        {
+          "name": "F1",
+          "columns": [
+            {
+              "qualifier": "M",
+              "measure_refs": [
+                "_COUNT_"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "aggregation_groups": [
+      {
+        "includes": [
+          "VENTAS.ID_CLIENTE",
+          "VENTAS.ID_PRODUCTO",
+          "VENTAS.ID_FECHA",
+          "PRODUCTOS.ID_PRODUCTO",
+          "PRODUCTOS.CODIGO_PRODUCTO",
+          "PRODUCTOS.DESCRIPCION",
+          "PRODUCTOS.CATEGORIA",
+          "PRODUCTOS.MARCA",
+          "PRODUCTOS.PRECIO_UNITARIO",
+          "CLIENTES.ID_CLIENTE",
+          "CLIENTES.CODIGO_CLIENTE",
+          "CLIENTES.RAZON_SOCIAL",
+          "CLIENTES.SALDO_CUENTA",
+          "CLIENTES.CONDICION",
+          "FECHAS.ID_FECHA",
+          "FECHAS.DIA",
+          "FECHAS.MES",
+          "FECHAS.ANIO"
+        ],
+        "select_rule": {
+          "hierarchy_dims": [],
+          "mandatory_dims": [],
+          "joint_dims": [
+            [
+              "CLIENTES.RAZON_SOCIAL",
+              "CLIENTES.SALDO_CUENTA",
+              "CLIENTES.CONDICION",
+              "FECHAS.ID_FECHA",
+              "FECHAS.DIA",
+              "FECHAS.MES",
+              "FECHAS.ANIO"
+            ]
+          ]
+        }
+      }
+    ],
+    "signature": "YfguXMgBW5kT++iHBnRxDA==",
+    "notify_list": [],
+    "status_need_notify": [
+      "ERROR",
+      "DISCARDED",
+      "SUCCEED"
+    ],
+    "partition_date_start": 0,
+    "partition_date_end": 3153600000000,
+    "auto_merge_time_ranges": [
+      604800000,
+      2419200000
+    ],
+    "volatile_range": 0,
+    "retention_range": 0,
+    "engine_type": 6,
+    "storage_type": 2,
+    "override_kylin_properties": {},
+    "cuboid_black_list": [],
+    "parent_forward": 3,
+    "mandatory_dimension_set_list": [],
+    "snapshot_table_desc_list": []
+  }
+  

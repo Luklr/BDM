@@ -1,0 +1,11 @@
+id_producto,codigo_producto,descripcion,categoria,marca,precio_unitario
+1,P-001,Producto 1,Categoria B,Marca 1,10.99
+2,P-002,Producto 2,Categoria A,Marca 2,21.98
+3,P-003,Producto 3,Categoria B,Marca 3,32.97
+4,P-004,Producto 4,Categoria A,Marca 4,43.96
+5,P-005,Producto 5,Categoria B,Marca 5,54.95
+6,P-006,Producto 6,Categoria A,Marca 6,65.94
+7,P-007,Producto 7,Categoria B,Marca 7,76.93
+8,P-008,Producto 8,Categoria A,Marca 8,87.92
+9,P-009,Producto 9,Categoria B,Marca 9,98.91
+10,P-010,Producto 10,Categoria A,Marca 10,109.9

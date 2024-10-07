@@ -1,0 +1,11 @@
+id_cliente,codigo_cliente,razon_social,saldo_cuenta,condicion
+1,C-001,Cliente 1,100.5,Inactivo
+2,C-002,Cliente 2,201.0,Activo
+3,C-003,Cliente 3,301.5,Inactivo
+4,C-004,Cliente 4,402.0,Activo
+5,C-005,Cliente 5,502.5,Inactivo
+6,C-006,Cliente 6,603.0,Activo
+7,C-007,Cliente 7,703.5,Inactivo
+8,C-008,Cliente 8,804.0,Activo
+9,C-009,Cliente 9,904.5,Inactivo
+10,C-010,Cliente 10,1005.0,Activo
